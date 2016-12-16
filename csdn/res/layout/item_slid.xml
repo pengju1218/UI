@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.example.csdn.view.View.SlidingTab
+        android:id="@+id/slidingtab"
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:background="@color/black"
+        app:textFocusColor="#FF0000"
+        app:textPadding="20dip" />
+
+</LinearLayout>

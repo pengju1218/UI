@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="TextView1">
+        <attr name="textColor" format="color" />
+        <attr name="textSize1" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="TimeTextView" />
+    <declare-styleable name="aligntextView">
+        <attr name="marginRight" format="dimension" />
+        <attr name="paddingLeft" format="dimension" />
+        <attr name="paddingRight" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="mutilStyle">
+        <attr name="mytextColor" format="color" />
+        <attr name="mytextSize" format="dimension" />
+        <attr name="textWordMargin" format="dimension" />
+        <attr name="textLineMargin" format="dimension" />
+        <attr name="textBackground" format="integer" />
+        <attr name="textPaddingLeft" format="dimension" />
+        <attr name="textPaddingRight" format="dimension" />
+        <attr name="textPaddingTop" format="dimension" />
+        <attr name="textPaddingBottom" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="EditTextWithClearBitton">
+        <attr name="text" format="string" />
+        <attr name="hint" format="string" />
+    </declare-styleable>
+    <declare-styleable name="PatternedEditText">
+        <attr name="pattern" format="string" />
+        <attr name="specialChar" format="string" />
+        <attr name="showPatternAsHint" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="FloatLabel">
+        <attr name="android:hint" />
+        <attr name="android:imeOptions" />
+        <attr name="android:inputType" />
+        <attr name="android:layout" />
+        <attr name="android:nextFocusDown" />
+        <attr name="android:nextFocusForward" />
+        <attr name="android:nextFocusLeft" />
+        <attr name="android:nextFocusRight" />
+        <attr name="android:nextFocusUp" />
+        <attr name="android:text" />
+        <attr name="android:textColorHint" />
+        <attr name="floatLabelColor" format="color" />
+        <attr name="labelId" format="reference" />
+        <attr name="editTextId" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="CircularProgressButton">
+        <attr name="textComplete" format="string" />
+        <attr name="textIdle" format="string" />
+        <attr name="textError" format="string" />
+        <attr name="colorProgress" format="color" />
+        <attr name="colorIndicator" format="color" />
+        <attr name="colorIndicatorBackground" format="color" />
+        <attr name="colorComplete" format="color" />
+        <attr name="colorError" format="color" />
+        <attr name="colorIdle" format="color" />
+        <attr name="iconError" format="reference" />
+        <attr name="iconComplete" format="reference" />
+        <attr name="cornerRadius" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="CircleButton">
+        <attr name="cb_color" format="color" />
+        <attr name="cb_pressedRingWidth" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="FAB">
+
+        <!-- Background color -->
+        <attr name="bg_color" format="color|reference" />
+        <attr name="bg_color_pressed" format="color|reference" />
+    </declare-styleable>
+    <declare-styleable name="Typeface">
+        <attr name="typeface" format="string" />
+    </declare-styleable>
+    <declare-styleable name="PersonAttr">
+        <attr name="name" format="reference" />
+        <attr name="sex" format="reference" />
+        <attr name="age" format="integer" />
+        <attr name="weight">
+            <flag name="fat" value="2" />
+            <flag name="mid" value="1" />
+            <flag name="thin" value="0" />
+        </attr>
+        <attr name="adult" format="boolean" />
+        <attr name="textSize" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="roundimageview">
+        <attr name="border_thickness" format="dimension"></attr>
+        <attr name="border_inside_color" format="color"></attr>
+        <attr name="border_outside_color" format="color"></attr>
+    </declare-styleable>
+    <declare-styleable name="ProgressBar">
+        <attr name="android:color" />
+    </declare-styleable>
+
+    <!-- 完成进度条 -->
+    <declare-styleable name="RoundProgressBar">
+        <attr name="roundColor" format="color" />
+        <attr name="roundProgressColor" format="color" />
+        <attr name="roundWidth" format="dimension"></attr>
+        <attr name="roundtextColor" format="color" />
+        <attr name="roundtextSize" format="dimension" />
+        <attr name="max" format="integer"></attr>
+        <attr name="pro" format="integer"></attr>
+        <attr name="textIsDisplayable" format="boolean"></attr>
+        <attr name="style">
+            <enum name="STROKE" value="0"></enum>
+            <enum name="FILL" value="1"></enum>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="PieProgress">
+        <attr name="foregroundColor" format="color" />
+        <attr name="backgroundColor" format="color" />
+        <attr name="pie_max" format="integer"></attr>
+        <attr name="pie_pro" format="integer"></attr>
+    </declare-styleable>
+    <declare-styleable name="CircleLayout">
+        <attr name="innerRadius" format="dimension" />
+        <attr name="sliceDivider" format="reference|color" />
+        <attr name="innerCircle" format="reference|color" />
+        <attr name="angleOffset" format="float" />
+        <attr name="angleRange" format="float" />
+        <attr name="layoutMode">
+            <enum name="normal" value="1" />
+            <enum name="pie" value="2" />
+        </attr>
+        <attr name="dividerWidth" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="ArrowTextView">
+        <attr name="radius" format="dimension" />
+        <attr name="arrowWidth" format="dimension" />
+        <attr name="arrowInHeight" format="dimension" />
+        <attr name="bg" format="color" />
+    </declare-styleable>
+    <declare-styleable name="MoreTextStyle">
+        <attr name="more_textSize" format="dimension" />
+        <attr name="more_textColor" format="color" />
+        <attr name="maxLine" format="integer" />
+        <attr name="more_text" format="string" />
+    </declare-styleable>
+
+    <attr name="position">
+        <enum name="left_top" value="0" />
+        <enum name="left_bottom" value="1" />
+        <enum name="right_top" value="2" />
+        <enum name="right_bottom" value="3" />
+        <enum name="center_top" value="4" />
+        <enum name="center_bottom" value="5" />
+        <enum name="center" value="6" />
+        <enum name="center_left" value="7" />
+        <enum name="center_right" value="8" />
+    </attr>
+
+    <declare-styleable name="SolarSystem">
+        <attr name="position"></attr>
+        <attr name="radius"></attr>
+    </declare-styleable>
+    <declare-styleable name="stepview_style">
+        <attr name="step_textSize" format="dimension" />
+        <attr name="step_textColor" format="color" />
+        <attr name="step_textMargin" format="color" />
+    </declare-styleable>
+    <declare-styleable name="SlingTab">
+        <attr name="s_textColor" format="color" />
+        <attr name="textDefColor" format="color" />
+        <attr name="textPadding" format="dimension" />
+        <attr name="s_textSize" format="dimension" />
+        <attr name="lineHeight" format="dimension" />
+        <attr name="lineColor" format="color" />
+        <attr name="line_marginTop" format="dimension" />
+        <attr name="textFocusColor" format="color" />
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+   
+
+     <com.example.csdn.view.Button.CircularProgressButton
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/btnWithIcons1"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:cornerRadius="48dp"
+        app:iconComplete="@drawable/ic_action_accept"
+        app:iconError="@drawable/ic_action_cancel"
+        app:textIdle="@string/Upload" />
+    
+</LinearLayout>

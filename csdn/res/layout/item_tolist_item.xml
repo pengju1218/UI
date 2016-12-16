@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <com.example.csdn.view.Text.TodoListItemView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/todo"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fadingEdge="vertical"
+        android:padding="10dp"
+        
+        android:scrollbars="vertical"
+        android:textColor="@color/notepad_text" />
+
+</LinearLayout>

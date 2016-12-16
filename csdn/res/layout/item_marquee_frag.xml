@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <com.example.csdn.view.Text.MarqueeText
+        android:id="@+id/marqueeText"
+        android:layout_width="200dip"
+        android:layout_height="100dip"
+        android:background="@android:color/white"
+        android:ellipsize="marquee"
+        android:gravity="center_vertical"
+        android:singleLine="true"
+        android:text="波什29分4篮板2抢断4盖帽,雷-阿伦15分"
+        android:textColor="@android:color/black" />
+
+</LinearLayout>

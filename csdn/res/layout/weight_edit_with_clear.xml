@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@null"
+    android:orientation="horizontal" > 
+  
+    <EditText
+        android:id="@+id/et"
+        style="@style/my_edittext_style"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@null"
+        android:gravity="center_vertical"
+        android:maxLength="20"
+        android:paddingLeft="5dp"
+        android:paddingRight="4dp"
+        android:singleLine="true" /> 
+  
+    <ImageButton
+        android:id="@+id/clear_ib"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:contentDescription="@string/image_content"
+        android:src="@drawable/common_input_box_clear"
+        android:visibility="gone" /> 
+  
+</LinearLayout>

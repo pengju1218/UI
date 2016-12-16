@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <com.example.csdn.view.ProgressBar.ZebraProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="300dip"
+        android:layout_height="10dip"
+        android:layout_marginTop="20dip"
+        android:color="#00ff00" />
+    
+    
+    <!--
+    <Button
+        android:id="@+id/click"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="随机获取一个进度值" />
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.example.csdn.view.ProgressBar.SpringProgressView
+        android:id="@+id/spring_progress_view"
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+    final TextView textView;
+		 final SpringProgressView progressView;
+		 final Random random = new Random(System.currentTimeMillis());
+		
+		textView = (TextView) findViewById(R.id.textview);
+		progressView = (SpringProgressView) findViewById(R.id.spring_progress_view);
+		progressView.setMaxCount(1000.0f);
+		findViewById(R.id.click).setOnClickListener(new OnClickListener() {
+			
+			public void onClick(View arg0) {
+				// TODO Auto-generated method stub
+				progressView.setCurrentCount(random.nextInt(1000));
+				textView.setText("最大值："+progressView.getMaxCount()+"   当前值："+progressView.getCurrentCount());
+			}
+		});
+    -->
+
+</LinearLayout>
