@@ -15,6 +15,7 @@
         android:textColor="@color/white"
         android:textSize="18sp"
         app:cornerRadius="48dp"
+         app:colorProgress="@color/white"
         app:iconComplete="@drawable/ic_action_accept"
         app:iconError="@drawable/ic_action_cancel"
         app:textIdle="@string/Upload" />

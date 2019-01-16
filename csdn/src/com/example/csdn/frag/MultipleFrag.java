@@ -18,7 +18,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
-public class MultipleFrag extends Fragment  implements OnMultipleTVItemClickListener {
+public class MultipleFrag extends BaseFrag  implements OnMultipleTVItemClickListener {
 
 	
 	@Override

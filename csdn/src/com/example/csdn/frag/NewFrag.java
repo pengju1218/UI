@@ -15,7 +15,7 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout.LayoutParams;
 
 @SuppressLint("ValidFragment")
-public class NewFrag extends Fragment {
+public class NewFrag extends BaseFrag {
 
 	private String type;
 

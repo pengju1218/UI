@@ -37,7 +37,7 @@ import android.view.View;
  * Class used internally by {@link RefreshActionItem} to show a determinate
  * progress indicator. Two display modes are supported "wheel" and "pie"
  */
-class PieProgress extends View {
+public  class PieProgress extends View {
 	private final RectF mRect = new RectF();
 	private final RectF mRectInner = new RectF();
 	private final Paint mPaintForeground = new Paint();

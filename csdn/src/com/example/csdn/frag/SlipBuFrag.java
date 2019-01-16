@@ -20,7 +20,7 @@ import android.widget.LinearLayout.LayoutParams;
 import android.widget.Toast;
 
 @SuppressLint("ValidFragment")
-public class SlipBuFrag extends Fragment implements  OnToggleStateChangeListener {
+public class SlipBuFrag extends BaseFrag implements  OnToggleStateChangeListener {
 
 	
 

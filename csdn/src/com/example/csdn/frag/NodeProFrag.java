@@ -25,7 +25,7 @@ import android.widget.LinearLayout.LayoutParams;
 import android.widget.Toast;
 
 @SuppressLint("ValidFragment")
-public class NodeProFrag extends Fragment {
+public class NodeProFrag extends BaseFrag {
 
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,

@@ -21,7 +21,7 @@ import android.widget.LinearLayout.LayoutParams;
 import android.widget.Toast;
 
 @SuppressLint("ValidFragment")
-public class WaterBuFrag extends Fragment {
+public class WaterBuFrag extends BaseFrag {
 
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,

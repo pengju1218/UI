@@ -21,7 +21,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
 
-public class TableLayoutFrag extends Fragment {
+public class TableLayoutFrag extends BaseFrag {
 	private String lv1 = "LTC";
 	private String[] lv2 = { "MO", "MCL", "MP" };
 

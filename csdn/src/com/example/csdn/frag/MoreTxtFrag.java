@@ -14,7 +14,7 @@ import android.view.animation.Animation;
 import android.view.animation.RotateAnimation;
 import android.widget.TextView;
 
-public class MoreTxtFrag extends Fragment {
+public class MoreTxtFrag extends BaseFrag {
 
 	TextView descriptionView;
 	View expandView;

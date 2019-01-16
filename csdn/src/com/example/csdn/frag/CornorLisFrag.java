@@ -27,7 +27,7 @@ import android.widget.SimpleAdapter;
 import android.widget.Toast;
 
 @SuppressLint("ValidFragment")
-public class CornorLisFrag extends Fragment{
+public class CornorLisFrag extends BaseFrag{
 
 	
 

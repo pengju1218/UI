@@ -16,7 +16,7 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-public class TodolistFrag extends Fragment {
+public class TodolistFrag extends BaseFrag {
 	private ListView myListView;
 	private ArrayList<String> toDoItems = new ArrayList<String>();
 

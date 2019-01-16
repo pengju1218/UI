@@ -14,7 +14,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-public class SlidingFrag extends Fragment {
+public class SlidingFrag extends BaseFrag {
 
 	public String[] s = { "资金", "商品", "类型", "币种", "资金", "商品", "资金", "商品", "类型",
 			"币种", "资金", "商品", "资金", "商品", "类型", "币种", "资金", "商品" };

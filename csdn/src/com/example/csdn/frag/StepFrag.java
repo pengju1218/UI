@@ -14,7 +14,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-public class StepFrag extends Fragment {
+public class StepFrag extends BaseFrag {
 
 	
 

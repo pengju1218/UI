@@ -23,7 +23,7 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout.LayoutParams;
 import android.widget.Toast;
 
-public class GugukaViewFrag extends Fragment{
+public class GugukaViewFrag extends BaseFrag{
 
 
 	@Override

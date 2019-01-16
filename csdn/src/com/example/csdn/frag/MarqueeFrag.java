@@ -12,7 +12,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-public class MarqueeFrag extends Fragment {
+public class MarqueeFrag extends BaseFrag {
 
 	
 	@Override

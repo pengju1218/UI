@@ -25,7 +25,7 @@ import android.widget.LinearLayout;
 import android.widget.LinearLayout.LayoutParams;
 import android.widget.TextView;
 
-public class NewsTabFrag extends Fragment  implements OnClickListener,OnPageChangeListener{
+public class NewsTabFrag extends BaseFrag  implements OnClickListener,OnPageChangeListener{
 
 	private ViewPager mViewPager;
 	private ViewGroup mViewGroup;

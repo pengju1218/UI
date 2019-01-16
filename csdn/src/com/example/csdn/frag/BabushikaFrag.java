@@ -21,7 +21,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
-public class BabushikaFrag extends Fragment implements
+public class BabushikaFrag extends BaseFrag implements
 		OnMultipleTVItemClickListener {
 
 	@Override
